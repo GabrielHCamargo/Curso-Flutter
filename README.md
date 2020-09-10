@@ -10,6 +10,12 @@ Antes do método foi declarado duas variáveis _resultado na qual será passado 
 
 OBSERVAÇÃO: Dentro do diretório lib se encontra dois arquivos, o main na qual será renderizado o app e o jogo, ambos aquivos dart, toda estrutura visual e funcional se encontra dentro do arquivo jogo para melhor organização.
 
+# APP ÁLCOOL OU GASOLINA
+A proposta do App é apresentar ao usuário se é melhor ele abastecer com gasolina ou álcool, através do seguinte conceito:
+    "Multiplique o valor da gasolina no posto de combustível por 0,7. Se o resultado for maior que o valor do álcool, vale abastecer com álcool. Se o resultado for menor que valor do álcool, abasteça com gasolina."
+
+O que possibilita essa conceito é a existência de um método, que pega os objetos do tipo TextEditingController com os dados digitados nos TextField's e converte eles para String e após para double, realiza essa conta e faz uma comparação dentro de uma condicional If/Else, é um app simples, que trás três Widgets não visto nos anteriores a ele, o Widget TextField com todos seus requisitos, Divider e SingleShildScrollView.
+
 # ENTRE EM CONTATO COMIGO:
     WHATSAPP: +55 (35) 9 8452-5250.
     INSTAGRAN: @eu.gabrielcamargo.
